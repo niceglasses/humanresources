@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="humanResourcesApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <style>
+      
+
+
+   </style>
+   <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body >
+
+  <div class="container-fluid">
+    <div class="page-header">
+      <h1><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Oldacmelogo.png/200px-Oldacmelogo.png" alt=""  display="inline"> Human Resources Applicant Database</h1>
+    </div>
+
+
+    
+
+    <div class="row slide-animation" ng-view>
+    
+    
+    </div>   
+  </div>
+  
+  <script src="https://code.angularjs.org/1.5.0/angular.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-route.js"></script>
+  <script src="https://code.angularjs.org/1.5.0/angular-animate.js"></script>
+  <script src="app/app.js"></script>
+  <script src="controllers/applicantsController.js"></script>
+  <script src="controllers/profileController.js"></script>
+  <script src="services/applicantsFactory.js"></script>
+</body>
+</html>
